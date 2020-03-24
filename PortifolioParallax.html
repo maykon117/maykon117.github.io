@@ -609,18 +609,7 @@ section .content a{
 
 
 	<script src="https://unpkg.com/swiper/js/swiper.min.js">
-<script type="text/javascript">
-	window.addEventListener("scroll",function(){
-		var header = document.querySelector("header");
-		header.classList.toggle("sticky", window.scrollY > 0);
-		
-		
-	})
-	function toggle(){
-		var header = document.querySelector("header");
-		header.classList.toggle("active");
-	}
-	var swiper = new Swiper('.swiper-container', {
+		var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
@@ -633,8 +622,20 @@ section .content a{
         slideShadows : true,
       }
     });
+	</script>
+<script type="text/javascript">
+	window.addEventListener("scroll",function(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0);
+		
+		
+	})
+	function toggle(){
+		var header = document.querySelector("header");
+		header.classList.toggle("active");
+	}
+	
 
-</script>
 </script>
 </body>
 </html>
