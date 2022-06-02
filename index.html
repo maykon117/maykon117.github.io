@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        nav{
+            margin-top: 100px;
+            text-align: center;
+            
+            
+     }
+     nav > a{
+           
+            background: #BBEA00;
+            color: #000;
+            padding: 10px;
+            text-decoration:none;
+            border-radius: 5px;
+            font-family: "Arial Black",Gadget,sans-serif;    
+            
+     }
+     
+       a:hover{background:#BBEA00;}  
+       a:active{background:#EEFFA8;}  
+            
+     h1{
+            margin-top: 100px;
+            text-align: center; 
+            color: #000; 
+            font-family: "Arial Black",Gadget,sans-serif; 
+     }
+
+     
+    </style>
+    <script>
+        var cavalo = new Audio();
+        var UUI = new Audio();
+        var UEPA = new Audio();
+        var VIXE = new Audio();
+        var RATINHO = new Audio();
+
+        
+        cavalo.src = "CAVALO.mp3";
+        UUI.src = "UUI.mp3";
+        UEPA.src ="UEPA.mp3";
+        VIXE.src = "VIXE.mp3";
+        RATINHO.src = "RATINHO.mp3";
+
+    </script>
+</head>
+<body>
+    <h1>STREAM DECK</h1>
+    <nav>
+        <a href="#" onmousedown="cavalo.play()">CAVALO</a>
+        <a href="#" onmousedown="UUI.play()">Uuuuuui</a>
+        <a href="#" onmousedown="">VOID 1</a>
+        <a href="#" onmousedown="RATINHO.play()">RATINHOOO!</a>
+        <a href="#" onmousedown="VIXE.play()">VIXE</a>
+        <a href="#" onmousedown="UEPA.play()">UEPAA!</a>
+    </nav>
+</body>
+</html> 
